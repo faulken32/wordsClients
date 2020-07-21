@@ -18,7 +18,8 @@ import org.springframework.data.cassandra.core.mapping.CassandraMappingContext;
     @Bean public CqlSessionFactoryBean session() {
 
         CqlSessionFactoryBean session = new CqlSessionFactoryBean();
-        session.setContactPoints("localhost");
+
+        //session.setContactPoints("127.0.0.1");
         session.setKeyspaceName("words");
 
         return session;
