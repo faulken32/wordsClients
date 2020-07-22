@@ -1,0 +1,9 @@
+version: "3"
+services:
+  cassandra:
+    image: cassandra
+#    build:
+#      context: .
+#      dockerfile: Cassandra.Dockerfile
+    ports:
+      - '9042:9042'
