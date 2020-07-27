@@ -19,13 +19,4 @@ import org.springframework.data.cassandra.repository.config.EnableCassandraRepos
 
         return session;
     }
-
-//    @Override
-//    public SchemaAction getSchemaAction() {
-//        return SchemaAction.CREATE_IF_NOT_EXISTS;
-//    }
-//
-//    @Override protected String getKeyspaceName() {
-//        return null;
-//    }
 }

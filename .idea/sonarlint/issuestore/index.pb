@@ -14,5 +14,5 @@ D
 Cassandra.Dockerfile,3\7\37b94d4723460e5366c056c789feafca30c7169d
 >
 cassandra.yaml,8\7\879bf1fc2dd1a6ad7d03bdfb675f84b23898e20b
-E
-cassandra-compose.yml,b\f\bf5ad24fc626cd6f1c8f6e5ca400db5a56d2f670
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
