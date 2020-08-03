@@ -8,15 +8,5 @@ import org.springframework.data.cassandra.repository.config.EnableCassandraRepos
 @EnableCassandraRepositories
 @Configuration public class CassandraConf {
 
-   @Bean
-    public CqlSessionFactoryBean session() {
 
-
-
-        CqlSessionFactoryBean session = new CqlSessionFactoryBean();
-        session.setLocalDatacenter("datacenter1");
-        session.setKeyspaceName("words");
-
-        return session;
-    }
 }

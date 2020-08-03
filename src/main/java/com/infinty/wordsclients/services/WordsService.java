@@ -49,9 +49,7 @@ import java.util.UUID;
                 return this.wordsRepo.save(next);
             }
         }
-
         return null;
-
     }
 
     public void sendToBroker(String word) {
@@ -59,6 +57,13 @@ import java.util.UUID;
     }
 
     public Sentence getSentence() {
-        return this.wordsRepo.findAll().iterator().next();
+
+        if (this.wordsRepo.findAll().iterator().hasNext()){
+
+            return this.wordsRepo.findAll().iterator().next();
+        } else {
+            return new Sentence();
+        }
+
     }
 }
